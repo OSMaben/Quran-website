@@ -46,59 +46,59 @@ ul = document.querySelector(".allAyat");
 
 // dark/light mood
 
-// var moonIcon = document.getElementById('moonIcon');
+var moonIcon = document.getElementById('moonIcon');
 
-// moonIcon.onclick = function(){
-//   document.body.classList.toggle('dark-mood');
-//   if(document.body.classList.contains('dark-mood')){
-//     moonIcon.className='fas fa-sun';
-//   }else{
-//     moonIcon.className='fas fa-moon';
-//   }
-// }
+moonIcon.onclick = function(){
+  document.body.classList.toggle('dark-mood');
+  if(document.body.classList.contains('dark-mood')){
+    moonIcon.className='fas fa-sun';
+  }else{
+    moonIcon.className='fas fa-moon';
+  }
+}
 
 
 
 // //Disable Inspect Element and  View page source
 
 
-// document.addEventListener('contextmenu' , function(e){
-//   alert('Sorry, right click is disabled to prevent leakage of confidential functions')
-//   e.preventDefault();
-// });
+document.addEventListener('contextmenu' , function(e){
+  alert('Sorry, right click is disabled to prevent leakage of confidential functions')
+  e.preventDefault();
+});
 
-// //Disable shortCut that allows Inspect element
+//Disable shortCut that allows Inspect element
 
-// document.onkeydown = function(e){
-//   if(event.keyCode === 123){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+document.onkeydown = function(e){
+  if(event.keyCode === 123){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+    return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+    return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+    return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-//   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+    return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-//   if(e.ctrlKey && e.shiftKey == 'S'.charCodeAt(0)){
-//   alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
+    return false;
+  }
+  if(e.ctrlKey && e.shiftKey == 'S'.charCodeAt(0)){
+  alert('Sorry, this shortCut is disabled to prevent leakage of confidential functions')
 
-//     return false;
-//   }
-// }
+    return false;
+  }
+}
 
