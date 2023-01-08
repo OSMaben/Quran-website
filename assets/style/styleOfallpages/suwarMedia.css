@@ -1,0 +1,113 @@
+@media (max-width:1196px){
+    .quran-readers{
+        padding: 0;
+    }
+}
+
+@media (max-width:966px){
+
+    .overFooter .message{
+        width: 100%;
+    }
+
+    .overFooter .message p{
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
+
+    .middle_Home{
+        padding: 0;
+    }
+}
+
+@media (max-width:884px){
+    .middle_Home .left h3{
+        font-size: 3rem;
+        width: 100%;
+    }
+    .middle_Home .left p{
+        font-size: 1.6rem;
+        line-height:2;
+    }
+        
+    .middle_Home .left{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .title img{
+        width: 86%;
+    }
+    .ayat{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .middle_Home{
+        padding: 0 2rem
+    }
+
+
+    .info{
+        width: 100%;
+        padding: 0 0.9rem;
+    }
+
+}
+
+@media (max-width:790px){
+    .quran-readers .quran-flex{
+        flex-direction: column;
+    }
+    .quran-readers .quran-flex .quran-card{
+        width: 90%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .middle_Home{
+        margin-top: -14rem;
+        padding: 0;
+    }
+}
+
+
+@media (max-width:668px){
+   
+    .ayat .allAyat {
+        flex-direction:column; 
+
+    }
+    .ayat .allAyat {
+    margin:auto;
+    }
+    .footer .pay-methos {
+        margin-top: 0rem;
+    }
+
+    .surah .input{
+        width: 80%;
+    }
+    .ayat .allAyat .eachAya{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:420px){
+    .middle_Home .left h3{
+        font-size: 2rem;
+    }
+
+
+    .middle_Home{
+        margin-top: -7rem;
+        padding: 0;
+    }
+}

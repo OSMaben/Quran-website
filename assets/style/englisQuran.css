@@ -1,0 +1,356 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    @font-face{
+        font-family:'koran';
+        src:url(arabic-fonts/koraan.ttf);
+        font-style:normal;
+        font-weight: 600;
+    }
+
+    @font-face{
+        font-family:'korP';
+        src: url(arabic-fonts/kor.ttf);
+        font-style:normal;
+        font-weight:100;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        background: rgba(213, 213, 208, 0.3);
+    }   
+    
+    .dark-mood{
+        background: #000;
+        color: #fff;
+    }   
+    a{
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+  
+    .sen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .row:hover{
+    background: rgba(122, 180, 208, 0.3);
+    cursor: crosshair; 
+    }
+    .rows{
+        flex-direction: row;
+    }
+
+    .columns{
+        flex-direction: column;
+    }
+
+    .active{
+        display: none;
+    }
+
+    .sen-a,
+    .sen-e{
+        font-size: 2rem;
+        text-align:right;
+        display: block;
+    }
+    .sen-a{
+    text-align: end;
+    width: 80%;
+    display: block;
+    margin-bottom: 1rem;
+    font-family: 'korP';
+    font-weight: 500;
+    line-height: 3rem;
+
+    }  
+
+    .sen-e{
+    text-align: start;
+    width: 80%;
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    position: relative;
+    /* add a font-family */
+    }    
+
+    .sen-e::before{
+        position: absolute;
+        content:'';
+        bottom:0;
+        left:0;
+        width:100%;
+        height:2px;
+        background: rgb(165, 162, 162);
+    }   
+
+    span{
+        color: red;
+        font-weight: 100;
+    }  
+
+    #title-bar-b{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* add a font-family */
+    }
+
+    #chapter-selector {
+    height: 5rem;
+    width: 23rem;
+    background: blue;
+    color: #fff;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    text-align: center;
+    }
+
+    optgroup{
+        margin:auto;
+        width:23rem;
+        display:block;
+        background: redl
+    }
+
+    .basmala{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
+    }
+
+    .image {
+        width:40rem;
+    }
+
+    .image img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        background: #f2f2f0;
+    }
+
+    header{
+        width: 100%;
+        height: 6rem;
+        background: rgba(5, 13, 42, 0.8);
+        padding: 0 3rem;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    header .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        color: #fff;
+    }
+    .logo img,
+    header .icons i{
+        cursor: pointer;
+        font-size: 1.6rem;
+    }
+
+    header .icons .para{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .dropdown{
+    position: fixed;
+    z-index: 9999999;
+    display: none;
+    left: 24rem;
+    top: 57.6px;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .dropdown-panel{
+    min-width: 160px;
+    max-width: 300px;
+    list-style: none;
+    background: #fefefe;
+    border: solid 1px #ddd;
+    border: solid 1px rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    overflow: visible;
+    padding: 8px 6px;
+    margin: 0;
+    margin-top: 0px;
+    margin-top: 30px;
+    font-size: 18px;
+    }
+
+    .dropdown-panel li{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    line-height: 18px;
+    padding: 7px 10px;
+    white-space: nowrap;
+    font-family: sans-serif;
+    cursor: pointer;
+    }
+
+    #dropdown-label{
+    font-style: italic;
+    color: #940302;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 5px 0;
+    text-decoration: underline;
+    }
+
+
+.footer{
+    width: 100%;
+    height:max-content;
+    background:#0a2a76;
+    color:rgb(155, 150, 154);
+    font-family:"koran";
+    direction: rtl;
+}
+
+.footer .footer-items{
+    padding:3rem;
+}
+
+.footer .footer-items .footer-flex{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+
+.footer .pay-methos{
+    margin-top:-3.5rem;
+}
+
+.footer .pay-methos .payments{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.4rem;
+}
+
+.footer .pay-methos .payments > div {
+    width:5rem;
+    height:4rem;
+}
+
+.footer .pay-methos .payments > div img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor:pointer;
+}
+
+.footer .pay-methos .payments > div img:nth-child(1){
+    width:80%;
+    border-radius:50%
+}
+
+h5{
+    font-size:1.5rem;
+    color:#b3aeae;
+    font-family: "korP";
+    margin-bottom:1.2rem;
+}
+
+li{
+    font-size: 1.2rem;
+    font-weight:600;
+}
+
+.about{
+    width:30%;
+}
+
+.about p{
+    font-size:1.3rem;
+}
+
+.last-footer{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 3rem;
+}
+
+.last-footer .right h3{
+    font-size:1.3rem;
+    color:var(--gray);
+}
+
+.last-footer .left i{
+    font-size:1.4rem;
+    margin-right:0.6rem;
+    color:var(--gray);
+    cursor:pointer;
+}
+
+
+.Privacy{
+    padding: 0 3rem;
+}
+
+.Privacy a{
+    color: #b3aeae;
+    font-size: 1.4rem;
+}
+    
+
+/* media query */
+
+@media (max-width:908px){
+    .dropdown{
+        left: 6rem;
+    }
+}
+
+@media (max-width:464px){
+    .dropdown{
+        left: 1rem;
+    }
+
+    .sen-a,
+    .sen-e{
+        width: 96%;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    header{
+        padding: 0 1rem;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .footer .pay-methos{
+        margin-top: 0;
+    }
+}

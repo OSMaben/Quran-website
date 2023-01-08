@@ -1,0 +1,207 @@
+@media (max-width:1193px){
+    .quran-readers{
+        padding: 0;
+    }
+
+    /* .readers_tages{
+        bottom: 4rem;
+    } */
+}
+@media (max-width:966px){
+
+    .overFooter .message{
+        width: 100%;
+    }
+
+    .overFooter .message p{
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
+
+    .middle_Home{
+        padding: 0;
+    }
+}
+
+@media (max-width:884px){
+    .middle_Home .left h3{
+        font-size: 5rem;
+        width: 100%;
+    }
+    .middle_Home .left p{
+        font-size: 2.1rem;
+        line-height:2;
+        width:100%;
+
+    }
+        
+    .middle_Home .left{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .title img{
+        width: 86%;
+    }
+    .ayat{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    /* .middle_Home{
+        top: 0;
+    } */
+
+    /* .readers_tages{
+        bottom: 0rem;
+    } */
+}
+
+@media (max-width:790px){
+    .quran-readers .quran-flex{
+        flex-direction: column;
+    }
+    .quran-readers .quran-flex .quran-card{
+        width: 90%;
+    }
+
+    .about{
+        width: 100%;
+    }
+   
+    .contact .holder{
+        width:90%;
+    }
+    /* .readers_tages{
+        gap: 1rem;
+    } */
+}
+
+    
+@media (max-width:668px){
+   
+    .ayat .allAyat {
+        flex-direction:column; 
+
+    }
+    .ayat .allAyat {
+    margin:auto;
+    }
+    .footer .pay-methos {
+        margin: 3rem 0;
+    }
+
+    .surah .input{
+        width: 80%;
+    }
+    .ayat .allAyat .eachAya{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+        padding: 0 0.9rem;
+    }
+
+    .middle_Home .left{
+        padding:0 1rem;
+    }
+
+}
+
+
+@media (max-width:553px){
+
+    .dropDown{
+        visibility: hidden
+    }
+    .Open_close{
+        display: block;
+    }
+    .bars{
+        display: block;
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        right: 0rem;
+        background: rgb(3, 93, 195);
+        top:5rem;
+        width: 100%;
+        line-height: 4rem;
+        clip-path: polygon(0 0 , 30% 0 , 30% 0 ,0 0);
+        transition: all 0.9s ease-in-out;
+    }
+   
+    nav ul li::after{
+        top: -0.1rem;
+    }
+
+    nav ul li{
+        margin-right: 0;
+    }
+    nav ul.active{
+        clip-path: polygon(0 0 , 100% 0 ,100% 100% ,0% 100%)  
+    }
+
+    .container header{
+    padding: 2rem 0.5rem;
+    }
+    #phpmessage{
+        padding: 4rem 0;
+    }
+
+    .middle_Home .left h3 {
+        font-size: 4rem;
+      }
+    /* .readers_tages span{
+        line-height: 4rem;
+        width: 14rem;
+    } */
+    
+}
+
+@media (max-width:450px){
+    .middle_Home{
+        margin-top: 4.3rem;
+    }
+
+    #phpmessage{
+        padding: 16rem 0;
+    }
+
+    .contanAmas, .mainContainer{
+        height: max-content;
+    }
+    .middle_Home .left h3 {
+        font-size: 5rem;
+    }
+
+    .readers_tages {
+    height: 58vh;
+    }
+    .readers_tages span{
+    background: #050c2a;
+
+    }
+}
+
+
+@media (max-width:343px){
+    .middle_Home .left h3{
+        font-size: 4rem;
+    }
+}
+
+
+@media (max-width:397px){
+    .readers_tages{
+        display: none;
+    }
+}
