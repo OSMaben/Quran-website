@@ -785,3 +785,34 @@ li{
     display: block;
     margin: 1rem auto;
 }
+
+
+@media (max-width:451px){
+    .middle_Home{
+        margin-top: 4.3rem;
+    }
+
+    #phpmessage{
+        padding: 16rem 0;
+    }
+
+    .contanAmas, .mainContainer{
+        height: max-content;
+    }
+    .middle_Home .left h3 {
+        font-size: 5rem;
+    }
+
+    .readers_tages {
+    height: 58vh;
+    }
+    .readers_tages span{
+    background: #050c2a;
+        display: none;
+    }
+}
+
+/*  The end hope that you like it 
+Created By OSM Ben 
+From morocco
+*/
