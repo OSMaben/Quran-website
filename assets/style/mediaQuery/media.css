@@ -167,7 +167,7 @@
     
 }
 
-@media (max-width:450px){
+@media (max-width:451px){
     .middle_Home{
         margin-top: 4.3rem;
     }
@@ -188,7 +188,7 @@
     }
     .readers_tages span{
     background: #050c2a;
-
+display: none;
     }
 }
 
